@@ -1,0 +1,18 @@
+PS D:\Studies\CSE 499A\Help\PythonAgentAI> python -m venv nsu
+
+PS D:\Studies\CSE 499A\Help\PythonAgentAI> Get-ExecutionPolicy
+Restricted
+PS D:\Studies\CSE 499A\Help\PythonAgentAI> Set-ExecutionPolicy remotesigned
+PS D:\Studies\CSE 499A\Help\PythonAgentAI> get-executionpolicy
+RemoteSigned
+PS D:\Studies\CSE 499A\Help\PythonAgentAI> nsu/scripts/activate
+(nsu) PS D:\Studies\CSE 499A\Help\PythonAgentAI> deactivate
+PS D:\Studies\CSE 499A\Help\PythonAgentAI> nsu/scripts/activate
+
+(nsu) PS D:\Studies\CSE 499A\Update 1> python.exe -m pip install --upgrade pip
+
+(nsu) PS D:\Studies\CSE 499A\Help\PythonAgentAI> pip install llama-index pypdf python-dotevn pandas
+
+(nsu) PS D:\Studies\CSE 499A\Help\PythonAgentAI> python main.py
+
+(nsu) PS D:\Studies\CSE 499A\Help\PythonAgentAI> pip install llama-index-experimental
